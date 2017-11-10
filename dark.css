@@ -1,4 +1,4 @@
-body { background: #1E1E1E; color: #e6e6e6; }
+body { background: #1E1E1E; color: #CE9178; }
 
 a { color: #949494; }
 
@@ -330,7 +330,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #e6e6e6; }
 
-#msg_form .msg_mentions_button { color: #949494; }
+#msg_form .msg_mentions_button { color: #CE9178; }
 
 #msg_form .msg_mentions_button:hover { color: #e6e6e6; }
 
