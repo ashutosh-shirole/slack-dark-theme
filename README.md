@@ -25,3 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
 And thats it. Reload slack `Ctrl+R` and you should get a dark theme.
 
 You will have to do this everytime you install/update your slack.
+
+## Shell script for linux
+If you find following these steps tedious on every update I have added a shell script `enable_slack_dark_mode.sh` which can be run on every update of slack.
+This is only for linux and can be adapted for other OS too. Feel free to adapt contribute.
+
+## Credits
+Adapted from (slack-night-mode)[https://github.com/laCour/slack-night-mode]
