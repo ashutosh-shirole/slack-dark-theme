@@ -795,6 +795,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
     color: #d7ba7d
 }
 
+.c-email__sender_collapsed, .c-email__title_collapsed {
+    color: #d7ba7d
+}
 
 ts-message { color: #d7ba7d; }
 
