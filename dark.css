@@ -799,6 +799,10 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
     color: #d7ba7d
 }
 
+.c-file_container {
+    background: inherit;
+}
+
 ts-message { color: #d7ba7d; }
 
 ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) { background: rgba(0, 0, 0, 0.1); box-shadow: inset 1px 0 0 0 #222; }
