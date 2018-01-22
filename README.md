@@ -26,6 +26,16 @@ And thats it. Reload slack `Ctrl+R` and you should get a dark theme.
 
 You will have to do this everytime you install/update your slack.
 
+### Sidebar theme
+If above changes dont change sidebar make the following changes
+1. go to: `Slack Preferences > Sidebar > Theme`
+2. Clear the textbox for custom theme 
+3. Paste the following contents in the textbox
+
+```
+#222222,#444A47,#D39B46,#FFFFFF,#434745,#FFFFFF,#99D04A,#DB6668
+```
+
 ## Shell script for linux
 If you find following these steps tedious on every update I have added a shell script `enable_slack_dark_mode.sh` which can be run on every update of slack.
 This is only for linux and can be adapted for other OS too. Feel free to adapt/contribute.
