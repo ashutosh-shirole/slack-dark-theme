@@ -44,5 +44,11 @@ This is only for linux and can be adapted for other OS too. Feel free to adapt/c
 
 ![Screenshot](screenshot.png)
 
+## Development
+For slack developer tools one has to open slack in developer mode. To do that use (for macOs):
+```sh
+export SLACK_DEVELOPER_MENU=true && open /Applications/Slack.app
+```
+
 ## Credits
 Adapted from [slack-night-mode](https://github.com/laCour/slack-night-mode)
