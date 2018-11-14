@@ -430,6 +430,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .menu .section_header > div.header_label_container { color: #949494; }
 
+.menu ul li a:not(.inline_menu_link) { color: #d7ba7d; }
+
 .menu ul li a { background: #363636; border-bottom: 0; color: #d7ba7d; }
 
 .menu ul li a.delete_link { color: #bf360c; }
@@ -3785,3 +3787,17 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 
 /*Fix for version 3.1.1*/
 .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar), .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider { background: #1E1E1E;}
+
+/*adding styles for c-menu*/
+.c-menu { background-color: #1E1E1E;}
+.c-menu_item__button, .c-menu_item__button:link, .c-menu_item__button:visited { color: #d7ba7d;}
+
+/*Search place holder*/
+.texty_legacy .ql-placeholder { color: #d7ba7d; }
+
+/*c-search modal*/
+.c-search_modal .popover>div { background-color: #1E1E1E; }
+.c-search_modal:not(.c-search_modal--primarysearch) .c-search__input_box { background-color: #1E1E1E; }
+.c-search_autocomplete footer { background-color: #1E1E1E; color: #d7ba7d; }
+.c-search_autocomplete__suggestion_item { color: #d7ba7d; }
+.c-search_autocomplete__suggestion_item .token{ background-color: rgba(232, 232, 232, 0.1); }
