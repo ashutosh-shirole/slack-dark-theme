@@ -3801,3 +3801,6 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .c-search_autocomplete footer { background-color: #1E1E1E; color: #d7ba7d; }
 .c-search_autocomplete__suggestion_item { color: #d7ba7d; }
 .c-search_autocomplete__suggestion_item .token{ background-color: rgba(232, 232, 232, 0.1); }
+
+/* message sender */
+.c-message--light .c-message__sender .c-message__sender_link { color: #c7c7c7 }
