@@ -35,7 +35,7 @@ If above changes dont change sidebar make the following changes
 ```
 #222222,#444A47,#D39B46,#FFFFFF,#434745,#FFFFFF,#99D04A,#DB6668
 ```
-** IMPORTANT ** This workaround will request CSS file from this repository. Using remote CSS file can be a risk. Recommended way is to create a local copy of the css file and use that file.
+**IMPORTANT NOTE** This workaround will request CSS file from this repository. Using remote CSS file can be a risk. Recommended way is to create a local copy of the css file and use that file.
 
 ## Shell script for linux
 If you find following these steps tedious on every update I have added a shell script `enable_slack_dark_mode.sh` which can be run on every update of slack.
